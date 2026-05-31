@@ -1,7 +1,11 @@
 {
-  "clones_total": 0,
+  "repo": "brokermr810/QuantDinger",
   "views_total": 0,
+  "clones_total": 0,
+  "baseline_views": 0,
+  "baseline_clones": 0,
+  "tracking_since": null,
   "updated_at": "2026-05-31T15:48:26Z",
-  "clone_days": {},
-  "view_days": {}
+  "view_days": {},
+  "clone_days": {}
 }

@@ -9,7 +9,7 @@ on:
     paths:
       - "scripts/update_repo_traffic.py"
       - ".github/workflows/repo-traffic-badges.yml"
-      - "docs/metrics/traffic.json"
+      - "docs/metrics/**"
 
 permissions:
   contents: write
@@ -29,4 +29,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update repo traffic metrics [skip ci]"
-          file_pattern: docs/metrics/traffic.json
+          file_pattern: docs/metrics/traffic.json docs/metrics/traffic-history.md
